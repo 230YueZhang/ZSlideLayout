@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="res_notfound">Resource is not found </string>
+</resources>

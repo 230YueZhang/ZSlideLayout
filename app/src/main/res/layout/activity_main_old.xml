@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark">
+
+    <com.zy.myapplication.older.ZSlideLayout
+        android:id="@+id/activity_main_slidemenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        app:menuAutoFocused="false"
+        app:menuHeight="320dp"
+        app:menuInitOpened="true"
+        app:menuRightMargin="550px"
+        app:menuSensitivity="3dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_red_light">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn111"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="leftMenuClick"
+                    android:text="111"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/btn222"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="leftMenuClick"
+                    android:text="222"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/btn333"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="leftMenuClick"
+                    android:text="333"
+                    android:textSize="24sp" />
+            </LinearLayout>
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_green_light">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="rightMenuClick"
+                    android:text="content000"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="rightMenuClick"
+                    android:text="content111"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="rightMenuClick"
+                    android:text="content222"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="rightMenuClick"
+                    android:text="content333"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="rightMenuClick"
+                    android:text="content444"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="rightMenuClick"
+                    android:text="content555"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="rightMenuClick"
+                    android:text="content666"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="rightMenuClick"
+                    android:text="content777"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="rightMenuClick"
+                    android:text="content888"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="rightMenuClick"
+                    android:text="content999"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="rightMenuClick"
+                    android:text="content000"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="rightMenuClick"
+                    android:text="content111"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="rightMenuClick"
+                    android:text="content222"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="rightMenuClick"
+                    android:text="content333"
+                    android:textSize="24sp" />
+
+                <!--<Button-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="ceshiBtn"-->
+                <!--android:textSize="24sp" />-->
+
+                <!--<Button-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="ceshiBtn"-->
+                <!--android:textSize="24sp" />-->
+
+            </LinearLayout>
+        </ScrollView>
+
+    </com.zy.myapplication.older.ZSlideLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/activity_main_slidemenu"
+        android:background="@android:color/holo_red_light">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="111"
+                android:textSize="24sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="222"
+                android:textSize="24sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="333"
+                android:textSize="24sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="111"
+                android:textSize="24sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="222"
+                android:textSize="24sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="333"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
